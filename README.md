@@ -15,7 +15,11 @@ This project builds a deep learning pipeline to classify chest X-ray images into
 - **NIH Chest X-ray Dataset:** https://www.kaggle.com/datasets/nih-chest-xrays/data
 - **Cleaned Combined Dataset (Google Drive):** https://drive.google.com/file/d/13jbZEaVAWHZk246WSngMfhJ71wdLZ5mu/view?usp=drive_link
 
-The NIH images were filtered into a strict binary setup where:
+The Kaggle dataset was already organized for pneumonia classification and contains chest X-ray images grouped into two main classes:
+- **NORMAL** = normal chest X-ray images
+- **PNEUMONIA** = chest X-ray images showing pneumonia cases
+
+The NIH dataset was filtered into a strict binary setup where:
 - **NORMAL** = `No Finding`
 - **PNEUMONIA** = `Pneumonia`
 
@@ -46,7 +50,7 @@ Among the models tested, **ResNet50 performed better than the other models** on 
 To improve interpretability, **Grad-CAM** was used to visualize the image regions that contributed most to the model’s predictions. This helped show whether the model was focusing on clinically relevant lung areas rather than unrelated parts of the image.
 
 ## Presentation Video
-- **YouTube Link:** https://youtu.be/fA6UpMl4Hmg
+- **YouTube Link:** [Insert your YouTube presentation link here](https://www.youtube.com/)
 
 ## Repository Contents
 This repository includes:
@@ -58,4 +62,3 @@ This repository includes:
 
 ## Conclusion
 This project demonstrates how deep learning can be applied to binary chest X-ray classification for pneumonia detection. Among the tested models, ResNet50 achieved the best overall performance, while Grad-CAM improved explainability by highlighting the image regions influencing predictions.
-  
