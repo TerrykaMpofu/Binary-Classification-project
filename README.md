@@ -50,7 +50,7 @@ Among the models tested, **ResNet50 performed better than the other models** on 
 To improve interpretability, **Grad-CAM** was used to visualize the image regions that contributed most to the model’s predictions. This helped show whether the model was focusing on clinically relevant lung areas rather than unrelated parts of the image.
 
 ## Presentation Video
-- **YouTube Link:** [Insert your YouTube presentation link here](https://www.youtube.com/)
+- **YouTube Link:** https://youtu.be/fA6UpMl4Hmg
 
 ## Repository Contents
 This repository includes:
